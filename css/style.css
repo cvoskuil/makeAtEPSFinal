@@ -54,12 +54,24 @@ body
 {
     width:100%;
     margin:0 auto;
-    float:left;
     margin-top:50px;
 }
 .navImg
 {
-    width:33%;
+    width:500px;
+    height:500px;
+    display:inline-block;
+    margin:5px;
+}
+.imgLabel
+{
+    font-size:100px;
+}
+.imgA
+{
+    text-decoration:none;
+    color:white;
+    text-align:center;
 }
 .navImg:hover
 {
