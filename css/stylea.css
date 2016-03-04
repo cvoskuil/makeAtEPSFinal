@@ -1,0 +1,24 @@
+body {
+  font-family: 'Archivo Black', sans-serif;    
+  padding-right: 15px;
+  padding-left: 15px; 
+  background-image: url("../Images/wood_texture_Background.jpg");
+}
+
+.awesome-title { 
+   font-size: 100px; 
+   font-weight: normal; 
+   padding-top: 50px; 
+   color: white; 
+    text-decoration: 2px 2px black; 
+}
+
+#color {
+    font-family: 'Karla', sans-serif;
+    padding: 10px;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 30px;
+    color: black; 
+}

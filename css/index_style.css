@@ -1,0 +1,96 @@
+body
+{
+    font-family: 'Oswald', sans-serif;
+    margin:0 auto;
+}
+#topImg
+{
+    background-image:url("../Images/workshop.jpg");
+    width:100%;
+    height:700px;
+}
+.navLink
+{
+     font-family: 'Archivo Black', sans-serif; 
+    float:right;
+    margin-right:20px;
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+    margin-top:20px;
+}
+#topTitle
+{
+    color:white;
+    font-size:200px;
+    margin:0 auto;
+    text-align:center;
+    padding-top:200px;
+}
+.title
+{
+    margin-top:20px;
+    font-size:100px;
+    text-align:center;
+}
+#description
+{
+    width:100%;
+    margin:0 auto;
+    float:left;
+    margin-bottom:30px;
+}
+#descriptionP
+{
+    width:50%;
+    float:left;
+    margin:0px 20px 0px 50px;
+}
+#descriptionImg
+{
+    width:25%;
+    float:left;
+}
+#imgNav
+{
+    width:100%;
+    margin:0 auto;
+    margin-top:10px;
+    overflow:hidden;
+}
+.imgLabel
+{
+    font-size:100px;
+}
+.imgA
+{
+    text-decoration:none;
+    color:white;
+    text-align:center;
+}
+#footer{
+    text-align:center;
+    margin-bottom:20px;
+}
+.navBar
+{
+    width: 100%;
+    overflow:hidden;
+}
+.navImg
+{
+    width: 32%;
+    height:500px;
+    padding:3px;
+    overflow:hidden;
+    font-size:100px;
+    text-align:center;
+    box-sizing:border-box;
+    display:inline-block;
+    background-repeat:no-repeat;
+    margin:5px;
+}
+.navImg:hover
+{
+    opacity:0.5;
+}
