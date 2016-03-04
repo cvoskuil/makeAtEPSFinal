@@ -55,13 +55,7 @@ body
     width:100%;
     margin:0 auto;
     margin-top:50px;
-}
-.navImg
-{
-    width:500px;
-    height:500px;
-    display:inline-block;
-    margin:5px;
+    overflow:hidden;
 }
 .imgLabel
 {
@@ -73,12 +67,30 @@ body
     color:white;
     text-align:center;
 }
-.navImg:hover
-{
-    opacity:0.5;
-}
 #footer
 {
     text-align:center;
     margin-bottom:20px;
+}
+.navBar
+{
+    width:1550px;
+    overflow:hidden;
+}
+.navImg
+{
+    width:500px;
+    height:500px;
+    padding:10px;
+    overflow:hidden;
+    font-size:100px;
+    text-align:center;
+    box-sizing:border-box;
+    display:inline-block;
+    background-repeat:no-repeat;
+    margin:5px;
+}
+.navImg:hover
+{
+    opacity:0.5;
 }
